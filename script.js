@@ -1,1 +1,11 @@
-document.querySelectorAll('.reveal').forEach((el)=>{const observer=new IntersectionObserver((entries,obs)=>{entries.forEach((entry)=>{if(entry.isIntersecting){entry.target.classList.add('visible');obs.unobserve(entry.target);}});},{threshold:.12});observer.observe(el);});
+
+const anchors = document.querySelectorAll('a[href^="#"]');
+anchors.forEach((a) => {
+  a.addEventListener('click', (event) => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) {
+      event.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
