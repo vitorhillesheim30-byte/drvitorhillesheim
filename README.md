@@ -1,1 +1,2 @@
-# Site oficial do Dr. Vitor Hillesheim — versão 4 ajustada
+Site oficial — Dr. Vitor Hillesheim
+Versão 13: fotografia final, otimização mobile, WhatsApp, SEO, sitemap e robots.txt.
