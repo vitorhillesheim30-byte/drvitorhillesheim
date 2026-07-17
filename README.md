@@ -1,2 +1,1 @@
-Site oficial — Dr. Vitor Hillesheim
-Versão 13: fotografia final, otimização mobile, WhatsApp, SEO, sitemap e robots.txt.
+Versão 14: ajuste do desktop para evitar corte visual no hero e texto atualizado para "Rio de Janeiro / RJ".

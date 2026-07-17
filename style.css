@@ -356,3 +356,23 @@ nav a:focus-visible,
   }
   .floating-whatsapp::after{display:none}
 }
+
+
+/* Ajuste fino v14 */
+html,body{overflow-x:hidden}
+main,footer{max-width:100%}
+@media(min-width:1081px){
+  .topbar{padding:0 34px}
+  main,footer{width:min(1280px,calc(100% - 40px))}
+  .hero{grid-template-columns:minmax(0,.96fr) minmax(0,1.04fr)}
+  .hero-copy{padding:40px 48px 58px 64px}
+  h1{font-size:clamp(3.9rem,6.1vw,6.55rem);text-align:center}
+  .hero-text,.kicker{max-width:100%}
+  .hero-actions,.service-modes{max-width:100%}
+}
+@media(min-width:1081px) and (max-width:1320px){
+  .topbar{padding:0 24px}
+  main,footer{width:calc(100% - 24px)}
+  .hero-copy{padding:34px 34px 52px 42px}
+  h1{font-size:clamp(3.55rem,5.7vw,5.95rem)}
+}
