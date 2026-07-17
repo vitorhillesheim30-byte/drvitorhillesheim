@@ -376,3 +376,26 @@ main,footer{max-width:100%}
   .hero-copy{padding:34px 34px 52px 42px}
   h1{font-size:clamp(3.55rem,5.7vw,5.95rem)}
 }
+
+
+/* Identificação profissional v15 */
+.medical-id{
+  margin:16px 0 0;
+  text-align:center;
+  color:#e7c26d;
+  font-size:.78rem;
+  font-weight:600;
+  letter-spacing:.12em;
+}
+.medical-id span{
+  margin:0 7px;
+  color:rgba(247,243,232,.6);
+}
+@media(max-width:700px){
+  .medical-id{
+    margin-top:14px;
+    font-size:.68rem;
+    letter-spacing:.08em;
+    line-height:1.5;
+  }
+}

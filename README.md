@@ -1,1 +1,1 @@
-Versão 14: ajuste do desktop para evitar corte visual no hero e texto atualizado para "Rio de Janeiro / RJ".
+Versão 15: inclusão discreta de "MÉDICO | CRM-RJ 52132142-0" abaixo do nome, sem alterar os demais elementos do site.
