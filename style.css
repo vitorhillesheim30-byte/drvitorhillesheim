@@ -401,11 +401,26 @@ main,footer{max-width:100%}
 }
 
 
-/* FINAL PREMIUM — apenas ícones e reenquadramento seguro da foto */
-.service-mode-icon svg{width:23px;height:23px;display:block;fill:none;stroke:#e9be61;stroke-width:2.05;stroke-linecap:round;stroke-linejoin:round}
-.card-icon svg{width:52px;height:52px;display:block;fill:none;stroke:#e3b450;stroke-width:2.15;stroke-linecap:round;stroke-linejoin:round}
-.contact-icon{width:54px;height:54px;flex:0 0 54px;display:grid;place-items:center;border:1px solid rgba(214,166,70,.48);border-radius:17px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(214,166,70,.025));box-shadow:inset 0 0 20px rgba(214,166,70,.025)}
-.contact-icon svg{width:30px;height:30px;display:block;fill:none;stroke:#e8bb57;stroke-width:2.05;stroke-linecap:round;stroke-linejoin:round}
-.floating-whatsapp svg{width:29px;height:29px;display:block;fill:none;stroke:#071425;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
-.hero-photo img{object-fit:cover;object-position:center 24%}
-@media(max-width:700px){.card-icon svg{width:48px;height:48px}.contact-icon{width:48px;height:48px;flex-basis:48px;border-radius:15px}.contact-icon svg{width:26px;height:26px}.hero-photo{min-height:560px}.hero-photo img{object-position:center 20%}}
+/* V20 — acabamento premium isolado: somente ícones e reenquadramento da foto */
+.card-icon{height:82px}
+.card-icon svg{width:68px;height:68px;display:block;overflow:visible}
+.card-icon svg path,.card-icon svg rect,.card-icon svg circle{vector-effect:non-scaling-stroke}
+.service-mode-icon{width:46px;height:46px;flex-basis:46px;background:radial-gradient(circle at 35% 28%,rgba(255,239,161,.13),rgba(184,117,22,.04) 48%,transparent 70%);box-shadow:inset 0 0 16px rgba(241,195,91,.08),0 4px 14px rgba(0,0,0,.18)}
+.service-mode-icon svg{width:30px;height:30px;display:block;overflow:visible}
+.contact-icon{width:64px;height:64px;flex:0 0 64px;display:grid;place-items:center;border-radius:50%;background:radial-gradient(circle at 32% 25%,#fff0a0 0,#d79527 42%,#8b4f0a 76%,#f3c65f 100%);box-shadow:inset 0 2px 6px rgba(255,255,255,.48),inset 0 -5px 9px rgba(85,43,0,.55),0 6px 18px rgba(0,0,0,.34)}
+.contact-icon svg{width:38px;height:38px;display:block;overflow:visible;filter:none}
+.contact-icon svg g{stroke:#071425!important;filter:none!important}
+.floating-whatsapp{box-shadow:inset 0 2px 7px rgba(255,255,255,.55),inset 0 -6px 10px rgba(85,43,0,.55),0 8px 24px rgba(0,0,0,.38)}
+.floating-whatsapp svg{width:34px;height:34px;display:block;overflow:visible}
+.floating-whatsapp svg g{stroke:#071425!important;filter:none!important}
+.hero-photo img{object-fit:cover;object-position:center 18%;transform:scale(1.08);transform-origin:center 22%}
+@media(max-width:1080px){
+ .hero-photo img{object-position:center 16%;transform:scale(1.12);transform-origin:center 20%}
+}
+@media(max-width:700px){
+ .card-icon{height:78px}.card-icon svg{width:64px;height:64px}
+ .service-mode-icon{width:44px;height:44px;flex-basis:44px}.service-mode-icon svg{width:28px;height:28px}
+ .contact-icon{width:54px;height:54px;flex-basis:54px}.contact-icon svg{width:32px;height:32px}
+ .hero-photo{aspect-ratio:4/4.35}
+ .hero-photo img{object-fit:cover;object-position:center 15%;transform:scale(1.16);transform-origin:center 18%}
+}
