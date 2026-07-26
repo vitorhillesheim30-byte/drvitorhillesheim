@@ -399,3 +399,13 @@ main,footer{max-width:100%}
     line-height:1.5;
   }
 }
+
+
+/* FINAL PREMIUM — apenas ícones e reenquadramento seguro da foto */
+.service-mode-icon svg{width:23px;height:23px;display:block;fill:none;stroke:#e9be61;stroke-width:2.05;stroke-linecap:round;stroke-linejoin:round}
+.card-icon svg{width:52px;height:52px;display:block;fill:none;stroke:#e3b450;stroke-width:2.15;stroke-linecap:round;stroke-linejoin:round}
+.contact-icon{width:54px;height:54px;flex:0 0 54px;display:grid;place-items:center;border:1px solid rgba(214,166,70,.48);border-radius:17px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(214,166,70,.025));box-shadow:inset 0 0 20px rgba(214,166,70,.025)}
+.contact-icon svg{width:30px;height:30px;display:block;fill:none;stroke:#e8bb57;stroke-width:2.05;stroke-linecap:round;stroke-linejoin:round}
+.floating-whatsapp svg{width:29px;height:29px;display:block;fill:none;stroke:#071425;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.hero-photo img{object-fit:cover;object-position:center 24%}
+@media(max-width:700px){.card-icon svg{width:48px;height:48px}.contact-icon{width:48px;height:48px;flex-basis:48px;border-radius:15px}.contact-icon svg{width:26px;height:26px}.hero-photo{min-height:560px}.hero-photo img{object-position:center 20%}}
