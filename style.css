@@ -446,3 +446,24 @@ main,footer{max-width:100%}
  .contact-icon img{width:47px;height:47px}
  .floating-whatsapp,.floating-whatsapp img{width:68px!important;height:68px!important}
 }
+
+
+/* v22 — correção exclusiva do título ACOMPANHAMENTO no mobile */
+@media (max-width: 700px) {
+  .followup .panel-title h2 {
+    white-space: nowrap;
+    font-size: clamp(1.72rem, 8.1vw, 2.35rem);
+    letter-spacing: -0.02em;
+    line-height: 1;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 390px) {
+  .followup .panel-title h2 {
+    font-size: 1.62rem;
+    letter-spacing: -0.035em;
+  }
+}
