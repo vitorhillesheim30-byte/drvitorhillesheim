@@ -424,3 +424,25 @@ main,footer{max-width:100%}
  .hero-photo{aspect-ratio:4/4.35}
  .hero-photo img{object-fit:cover;object-position:center 15%;transform:scale(1.16);transform-origin:center 18%}
 }
+
+
+/* v21 — somente os ícones aprovados nas referências enviadas */
+.button-ref-icon{width:26px;height:26px;object-fit:contain;margin-right:10px;flex:0 0 auto}
+.service-mode-icon{overflow:visible;background:none!important;box-shadow:none!important;border:0!important}
+.service-mode-icon img{width:46px;height:46px;object-fit:contain;display:block}
+.card-icon{height:92px}
+.card-icon img{width:96px;height:86px;object-fit:contain;display:block;filter:drop-shadow(0 5px 7px rgba(0,0,0,.34))}
+.cards article:nth-child(3) .card-icon img,.cards article:nth-child(4) .card-icon img{width:108px;height:90px}
+.contact-icon{background:none!important;box-shadow:none!important;border:0!important;border-radius:0!important}
+.contact-icon img{width:55px;height:55px;object-fit:contain;display:block}
+.floating-whatsapp{background:transparent!important;box-shadow:none!important;width:82px!important;height:82px!important;overflow:visible}
+.floating-whatsapp img{width:82px;height:82px;object-fit:contain;display:block;filter:drop-shadow(0 7px 10px rgba(0,0,0,.38))}
+@media(max-width:700px){
+ .button-ref-icon{width:22px;height:22px;margin-right:8px}
+ .service-mode-icon img{width:42px;height:42px}
+ .card-icon{height:84px}
+ .card-icon img{width:84px;height:76px}
+ .cards article:nth-child(3) .card-icon img,.cards article:nth-child(4) .card-icon img{width:94px;height:80px}
+ .contact-icon img{width:47px;height:47px}
+ .floating-whatsapp,.floating-whatsapp img{width:68px!important;height:68px!important}
+}
